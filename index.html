@@ -3,16 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 	<div class="container">
-		<div id="buttons">
-            <button id="button-rock">Kamień</button>
-            <button id="button-paper">Papier</button>
-            <button id="button-scissors">Nożyce</button>
+        <h1>Welcome!</h1>
+        <h2>Here you can play...<br> <span>Rock, paper, scissors!</span></h2>
+        <h3>About the game:</h3>
+        <p>A classic two-person game. <br> Players start each round by saying, “rock, paper, scissors, shoot!” On “shoot,” each player holds out their fist for rock, flat hand for paper, or their index and middle finger for scissors. <br>Rock crushes scissors, scissors cut paper, and paper covers rock. See who wins each round! <br>You can play here - just click on one of the buttons below and have fun!</p>
+		<h4>Goodluck!</h4>
+        <div id="buttons">
+            <button class="btn btn-rock" id="button-rock" type="button">Kamień</button>
+            <button class="btn btn-paper" id="button-paper" type="button">Papier</button>
+            <button class="btn btn-scissors" id="button-scissors" type="button">Nożyce</button>
         </div>
 		<div id="messages"></div>
+        <div id="result"></div>
 	</div>
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>

@@ -1,0 +1,86 @@
+/*Global*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    color: #B33771;
+    text-align: center;
+}
+
+h2 {
+    font-size: 23px;
+    color: black;
+    text-align: center;
+}
+
+span {
+    font-size: 50px;
+    color: #F97F51;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+p {
+ text-align: center;
+}
+
+h4 {
+    color: #6D214F;
+    font-style: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn {
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 1.0px;
+    border-style: solid;
+    background-color: inherit; 
+    background-position: 100% 0;
+    background-size: 100%;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-position: 0 100%;
+    color: #b30086;
+    border-color: #b30086;
+    border-width: 2px;
+}
+
+#messages {
+    font-size: 20px;
+    color: #b30086;
+}
+
+#result {
+    font-size: 20px;
+    color: #78025a;
+}
+
+body {
+    background-color: #ffe6e6
+}
